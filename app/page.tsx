@@ -36,9 +36,9 @@ export default function HomePage() {
             </p>
             <Reveal delay={0.9}>
               <p className="mt-6 max-w-xl text-lg text-body sm:text-xl">
-                LUMA runs free global pitch competitions and an internship
-                program that connects students with real work at nonprofits and
-                startups.
+                A youth business accelerator. We run free global pitch
+                competitions and an internship program that connects students
+                with real work at nonprofits and startups.
               </p>
             </Reveal>
             <Reveal delay={1.1}>
