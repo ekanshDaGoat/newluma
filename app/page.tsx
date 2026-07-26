@@ -6,6 +6,7 @@ import StatsBar from "@/components/StatsBar";
 import Reveal from "@/components/Reveal";
 import SponsorMarquee from "@/components/SponsorMarquee";
 import CountriesRotator from "@/components/CountriesRotator";
+import MobileCountriesStripes from "@/components/MobileCountriesStripes";
 import { homeStats, LATEST_COMPETITION_URL } from "@/lib/data";
 
 export default function HomePage() {
@@ -64,10 +65,8 @@ export default function HomePage() {
             </Reveal>
           </div>
 
-          <Reveal delay={0.5} className="relative lg:hidden flex items-center justify-center w-full py-12">
-            <div style={{ transform: 'scale(0.5)', transformOrigin: 'center' }}>
-              <CountriesRotator />
-            </div>
+          <Reveal delay={0.5} className="relative lg:hidden w-full">
+            <MobileCountriesStripes />
           </Reveal>
         </div>
       </section>
