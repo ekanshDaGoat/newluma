@@ -58,7 +58,7 @@ export default function HomePage() {
             </Reveal>
           </div>
 
-          <Reveal delay={0.5} className="relative hidden lg:flex items-center justify-center self-start">
+          <Reveal delay={0.5} className="relative flex items-center justify-center self-start">
             <CountriesRotator />
           </Reveal>
         </div>
