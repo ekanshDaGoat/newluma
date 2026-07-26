@@ -28,17 +28,14 @@ export default function HomePage() {
         <div className="relative mx-auto grid w-full max-w-6xl items-center gap-12 px-5 py-16 lg:grid-cols-[1.2fr_0.8fr]">
           <div>
             <HeroHeadline
-              lines={["Youth Business", "Accelerator."]}
+              lines={["Launching the", "Next Generation", "of Founders &", "Leaders."]}
               className="text-[2.6rem] font-extrabold leading-[1.05] tracking-tight sm:text-6xl"
             />
-            <p className="mt-2 text-2xl font-bold text-white/80 sm:text-3xl">
-              Free pitch competitions & internships.
-            </p>
             <Reveal delay={0.9}>
               <p className="mt-6 max-w-xl text-lg text-body sm:text-xl">
-                A youth business accelerator. We run free global pitch
-                competitions and an internship program that connects students
-                with real work at nonprofits and startups.
+                LUMA is a global youth business accelerator connecting students
+                through high-impact pitch competitions and direct internship
+                placement with real-world startups.
               </p>
             </Reveal>
             <Reveal delay={1.1}>
