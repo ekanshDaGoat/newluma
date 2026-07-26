@@ -58,8 +58,14 @@ export default function HomePage() {
             </Reveal>
           </div>
 
-          <Reveal delay={0.5} className="relative flex items-center justify-center self-start">
+          <Reveal delay={0.5} className="relative hidden md:flex items-center justify-center self-start">
             <CountriesRotator />
+          </Reveal>
+
+          <Reveal delay={0.5} className="relative md:hidden flex items-center justify-center w-full py-8">
+            <div style={{ transform: 'scale(0.6)', transformOrigin: 'center' }}>
+              <CountriesRotator />
+            </div>
           </Reveal>
         </div>
       </section>
