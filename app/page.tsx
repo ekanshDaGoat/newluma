@@ -25,45 +25,47 @@ export default function HomePage() {
       <section className="relative flex items-center overflow-hidden">
         <div aria-hidden className="hero-bg" />
         <div aria-hidden className="hero-grid" />
-        <div className="relative mx-auto grid w-full max-w-6xl items-center gap-12 px-5 py-16 lg:grid-cols-[1.2fr_0.8fr]">
-          <div>
-            <HeroHeadline
-              lines={["Launching the", "Next Generation", "of Founders &", "Leaders."]}
-              className="text-[2.6rem] font-extrabold leading-[1.05] tracking-tight sm:text-6xl"
-            />
-            <Reveal delay={0.9}>
-              <p className="mt-6 max-w-xl text-lg text-body sm:text-xl">
-                LUMA is a global youth business accelerator connecting students
-                through high-impact pitch competitions and direct internship
-                placement with real-world startups.
-              </p>
-            </Reveal>
-            <Reveal delay={1.1}>
-              <div className="mt-10 flex flex-col gap-4 sm:flex-row">
-                <a
-                  href={LATEST_COMPETITION_URL}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="btn-primary group w-full sm:w-auto"
-                >
-                  Compete Now
-                  <span className="ml-2 transition-transform duration-200 group-hover:translate-x-1">
-                    →
-                  </span>
-                </a>
-                <Link href="/internship-program" className="btn-secondary w-full sm:w-auto">
-                  Apply Now
-                </Link>
-              </div>
+        <div className="relative mx-auto w-full max-w-6xl px-5 py-16">
+          <div className="grid items-center gap-12 lg:grid-cols-[1.2fr_0.8fr]">
+            <div>
+              <HeroHeadline
+                lines={["Launching the", "Next Generation", "of Founders &", "Leaders."]}
+                className="text-[2.6rem] font-extrabold leading-[1.05] tracking-tight sm:text-6xl"
+              />
+              <Reveal delay={0.9}>
+                <p className="mt-6 max-w-xl text-lg text-body sm:text-xl">
+                  LUMA is a global youth business accelerator connecting students
+                  through high-impact pitch competitions and direct internship
+                  placement with real-world startups.
+                </p>
+              </Reveal>
+              <Reveal delay={1.1}>
+                <div className="mt-10 flex flex-col gap-4 sm:flex-row">
+                  <a
+                    href={LATEST_COMPETITION_URL}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn-primary group w-full sm:w-auto"
+                  >
+                    Compete Now
+                    <span className="ml-2 transition-transform duration-200 group-hover:translate-x-1">
+                      →
+                    </span>
+                  </a>
+                  <Link href="/internship-program" className="btn-secondary w-full sm:w-auto">
+                    Apply Now
+                  </Link>
+                </div>
+              </Reveal>
+            </div>
+
+            <Reveal delay={0.5} className="relative hidden lg:flex items-center justify-center self-start">
+              <CountriesRotator />
             </Reveal>
           </div>
 
-          <Reveal delay={0.5} className="relative hidden md:flex items-center justify-center self-start">
-            <CountriesRotator />
-          </Reveal>
-
-          <Reveal delay={0.5} className="relative md:hidden flex items-center justify-center w-full py-8">
-            <div style={{ transform: 'scale(0.6)', transformOrigin: 'center' }}>
+          <Reveal delay={0.5} className="relative lg:hidden flex items-center justify-center w-full py-12">
+            <div style={{ transform: 'scale(0.5)', transformOrigin: 'center' }}>
               <CountriesRotator />
             </div>
           </Reveal>
