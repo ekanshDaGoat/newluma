@@ -104,7 +104,7 @@ export default function CountriesRotator() {
         className="text-center text-2xl font-black leading-tight text-white sm:text-3xl"
         style={{ marginTop: 30 }}
       >
-        Impact in 25+ Countries!
+        Impacted 25+ Countries!
       </motion.h3>
 
       <div
