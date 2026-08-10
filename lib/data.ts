@@ -7,9 +7,9 @@ export const CONTACT_EMAIL = "ekanshsmail@gmail.com";
 export const IFSL_APPLY_URL = `mailto:${CONTACT_EMAIL}?subject=Internship%20Program%20Application`;
 
 export const homeStats = [
-  { value: 2500, suffix: "+", label: "Students Completed" },
-  { value: 23000, suffix: "+", prefix: "$", label: "In Prizes" },
-  { value: 15, suffix: "+", label: "Sponsors" },
+  { value: 1600, suffix: "+", label: "Participants" },
+  { value: 165, suffix: "K+", prefix: "$", label: "Worth of Prizes" },
+  { value: 15, suffix: "+", label: "Organizations" },
   { value: 50, suffix: "+", label: "Volunteers" },
   { value: 70, suffix: "+", label: "Interns Placed" },
 ];
