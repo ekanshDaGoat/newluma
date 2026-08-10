@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { CONTACT_EMAIL } from "@/lib/data";
 
 const links = [
   { href: "/", label: "Home" },
@@ -42,12 +41,6 @@ export default function Footer() {
               className="flex min-h-[44px] items-center transition-colors hover:text-white"
             >
               LUMA on Devpost ↗
-            </a>
-            <a
-              href={`mailto:${CONTACT_EMAIL}`}
-              className="flex min-h-[44px] items-center transition-colors hover:text-white"
-            >
-              {CONTACT_EMAIL}
             </a>
           </div>
         </div>

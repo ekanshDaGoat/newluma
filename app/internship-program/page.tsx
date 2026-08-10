@@ -5,7 +5,7 @@ import Accordion from "@/components/Accordion";
 import MockWindow from "@/components/MockWindow";
 import TypedLines from "@/components/TypedLines";
 import FloatBadge from "@/components/FloatBadge";
-import { ifslStats, ifslFaq, IFSL_APPLY_URL } from "@/lib/data";
+import { ifslStats, ifslFaq, INTERNSHIP_APPLY_URL } from "@/lib/data";
 
 export const metadata: Metadata = {
   title: "Internship Program — LUMA",
@@ -139,7 +139,7 @@ export default function IfslPage() {
       {/* ---------- CTA ---------- */}
       <section className="border-t border-white/5 pb-24 pt-16 text-center">
         <Reveal>
-          <a href={IFSL_APPLY_URL} className="btn-primary w-auto px-10">
+          <a href={INTERNSHIP_APPLY_URL} className="btn-primary w-auto px-10">
             Apply to Internship Program
           </a>
         </Reveal>

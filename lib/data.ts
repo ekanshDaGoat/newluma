@@ -2,9 +2,7 @@
 // competition data pulled from Devpost. Update here, not in the pages.
 
 export const LATEST_COMPETITION_URL = "https://luma-hackathon-fall.devpost.com/?ref_feature=challenge&ref_medium=discover";
-export const CONTACT_EMAIL = "ekanshsmail@gmail.com";
-// [INSERT INTERNSHIP PROGRAM APPLICATION LINK] — using contact email until a form exists.
-export const IFSL_APPLY_URL = `mailto:${CONTACT_EMAIL}?subject=Internship%20Program%20Application`;
+export const INTERNSHIP_APPLY_URL = "https://docs.google.com/forms/d/e/1FAIpQLSfpApahEcjrXdV3aJluZ0F3-8KhNWGFCjjHZ9UUTPFa6dXHwA/viewform?usp=header";
 
 export const homeStats = [
   { value: 1600, suffix: "+", label: "Participants" },

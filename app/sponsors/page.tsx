@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Reveal from "@/components/Reveal";
-import { sponsors, CONTACT_EMAIL } from "@/lib/data";
+import { sponsors } from "@/lib/data";
 
 export const metadata: Metadata = {
   title: "Sponsors — LUMA",
@@ -89,14 +89,8 @@ export default function SponsorsPage() {
             Interested in sponsoring LUMA?
           </h2>
           <p className="mt-4 text-lg text-body">
-            Reach out and let&rsquo;s talk.
+            Reach out and let&rsquo;s talk. Join us on our Discord or connect through Devpost.
           </p>
-          <a
-            href={`mailto:${CONTACT_EMAIL}?subject=Sponsoring%20LUMA`}
-            className="btn-primary mt-8 w-full sm:w-auto"
-          >
-            Email Us
-          </a>
         </Reveal>
       </section>
     </>
