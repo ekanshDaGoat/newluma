@@ -1,19 +1,21 @@
 // Central content source for the whole site. All stats provided by Ekansh;
 // competition data pulled from Devpost. Update here, not in the pages.
 
-export const LATEST_COMPETITION_URL = "https://luma-hackathon-fall.devpost.com/?ref_feature=challenge&ref_medium=discover";
+export const LATEST_COMPETITION_URL = "https://next-founders.devpost.com/";
 export const INTERNSHIP_APPLY_URL = "https://docs.google.com/forms/d/e/1FAIpQLSfpApahEcjrXdV3aJluZ0F3-8KhNWGFCjjHZ9UUTPFa6dXHwA/viewform?usp=header";
 
 export const homeStats = [
-  { value: 1600, suffix: "+", label: "Participants" },
-  { value: 165, suffix: "K+", prefix: "$", label: "Worth of Prizes" },
-  { value: 15, suffix: "+", label: "Organizations" },
-  { value: 50, suffix: "+", label: "Volunteers" },
-  { value: 70, suffix: "+", label: "Interns Placed" },
+  { value: 50, suffix: "+", label: "Volunteers Led" },
+  { value: 8, label: "Pitch Competitions" },
+  { value: 2500, suffix: "+", label: "Participants" },
+  { value: 25, suffix: "+", label: "Nations" },
+  { value: 23, suffix: "K+", prefix: "$", label: "Worth of Prizes" },
+  { value: 76, label: "Interns Paired" },
+  { value: 15, label: "Sponsors" },
 ];
 
 export const ifslStats = [
-  { value: 70, suffix: "+", label: "Interns Placed" },
+  { value: 76, label: "Interns Paired" },
   { value: 10, suffix: "+", label: "Fields Available" },
 ];
 
@@ -30,16 +32,25 @@ export interface Competition {
 // Reverse chronological. Source: devpost.com — each competition's own page.
 export const competitions: Competition[] = [
   {
-    name: "LUMA Startathon Fall",
-    date: "September 2026 – Present",
-    participants: "[INSERT CURRENT COUNT]",
-    prizes: "[INSERT PRIZE DETAILS]",
+    name: "LUMA Pitch Competition Late Summer 2026",
+    date: "August 16 – October 15, 2026",
+    participants: "771 participants",
+    prizes: "$275 in cash prizes",
     format: "Virtual startup pitch competition",
-    theme: "TBD — not decided yet",
-    url: "https://luma-hackathon-fall.devpost.com/?ref_feature=challenge&ref_medium=discover",
+    theme: "Open-ended",
+    url: "https://next-founders.devpost.com/",
   },
   {
-    name: "LUMA Startathon Summer",
+    name: "LUMA Pitch Competition Fall 2026",
+    date: "September 20–28, 2026",
+    participants: "224 participants",
+    prizes: "Subscription prizes for every participant",
+    format: "Virtual startup pitch competition",
+    theme: "Open-ended",
+    url: "https://luma-hackathon-fall.devpost.com/",
+  },
+  {
+    name: "LUMA Pitch Competition Summer 2026",
     date: "July 3–10, 2026",
     participants: "757 participants",
     prizes: "$[INSERT]+ in prizes",
@@ -48,7 +59,7 @@ export const competitions: Competition[] = [
     url: "https://luma-hackathon-500.devpost.com/",
   },
   {
-    name: "LUMA Startathon Spring",
+    name: "LUMA Pitch Competition Spring 2026",
     date: "April 4 – May 2, 2026",
     participants: "394 participants",
     prizes: "$[INSERT]+ in prizes",
@@ -57,7 +68,7 @@ export const competitions: Competition[] = [
     url: "https://luma.devpost.com/",
   },
   {
-    name: "LUMA Startathon Winter",
+    name: "LUMA Pitch Competition Winter 2025",
     date: "October 18 – December 1, 2025",
     participants: "205 participants",
     prizes: "$[INSERT]+ in prizes",
@@ -66,7 +77,7 @@ export const competitions: Competition[] = [
     url: "https://lumastartathon.devpost.com/",
   },
   {
-    name: "LUMA Startathon Fall",
+    name: "LUMA Pitch Competition Fall 2025",
     date: "September 19 – October 6, 2025",
     participants: "126 participants",
     prizes: "$[INSERT]+ in prizes",
@@ -75,7 +86,7 @@ export const competitions: Competition[] = [
     url: "https://luma-startathon.devpost.com/",
   },
   {
-    name: "LUMA Startathon End 2024",
+    name: "LUMA Pitch Competition End 2024",
     date: "November – December 2024",
     participants: "63 participants",
     prizes: "$[INSERT]+ in prizes",
@@ -84,7 +95,7 @@ export const competitions: Competition[] = [
     url: "[INSERT URL]",
   },
   {
-    name: "LUMA Startathon Mid 2024",
+    name: "LUMA Pitch Competition Mid 2024",
     date: "May – July 2024",
     participants: "42 participants",
     prizes: "$[INSERT]+ in prizes",

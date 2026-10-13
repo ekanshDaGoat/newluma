@@ -72,7 +72,7 @@ export default function HomePage() {
       </section>
 
       {/* ---------- Stats bar ---------- */}
-      <StatsBar stats={homeStats} columns={5} />
+      <StatsBar stats={homeStats} columns={7} />
 
       {/* ---------- What we do ---------- */}
       <section className="mx-auto max-w-6xl px-5 py-24">

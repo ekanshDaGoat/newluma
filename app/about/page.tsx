@@ -156,7 +156,7 @@ export default function AboutPage() {
           </h2>
         </Reveal>
         <div className="mt-10">
-          <StatsBar stats={homeStats} columns={5} />
+          <StatsBar stats={homeStats} columns={7} />
         </div>
       </section>
     </>

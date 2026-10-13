@@ -54,9 +54,11 @@ export default function CompetitionsPage() {
                     Now Open
                   </p>
                   <h3 className="mt-3 text-3xl font-black text-white">
-                    LUMA Startathon
+                    LUMA Pitch Competition
                   </h3>
-                  <p className="mt-2 text-base text-white/80">Fall 2026</p>
+                  <p className="mt-2 text-base text-white/80">
+                    Submissions close October 15, 2026
+                  </p>
                 </div>
 
                 <div className="space-y-3 border-t border-white/8 pt-6">
@@ -115,7 +117,7 @@ export default function CompetitionsPage() {
         <div className="mx-auto max-w-6xl px-5 py-24">
           <Reveal>
             <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
-              Past competitions
+              All competitions
             </h2>
             <p className="mt-3 max-w-xl text-body">
               Every LUMA competition is hosted on Devpost — the full history is
