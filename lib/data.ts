@@ -6,9 +6,7 @@ export const INTERNSHIP_APPLY_URL = "https://docs.google.com/forms/d/e/1FAIpQLSf
 
 export const homeStats = [
   { value: 50, suffix: "+", label: "Volunteers Led" },
-  { value: 8, label: "Pitch Competitions" },
   { value: 2500, suffix: "+", label: "Participants" },
-  { value: 25, suffix: "+", label: "Nations" },
   { value: 23, suffix: "K+", prefix: "$", label: "Worth of Prizes" },
   { value: 76, label: "Interns Paired" },
   { value: 15, label: "Sponsors" },

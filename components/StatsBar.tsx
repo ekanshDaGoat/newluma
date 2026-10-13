@@ -13,33 +13,8 @@ export default function StatsBar({
   columns = 5,
 }: {
   stats: Stat[];
-  columns?: 2 | 3 | 5 | 7;
+  columns?: 2 | 3 | 5;
 }) {
-  // 7 stats don't fit a clean grid, so wrap and center the leftover row.
-  if (columns === 7) {
-    return (
-      <section className="border-y border-white/5 bg-panel">
-        <div className="mx-auto flex max-w-6xl flex-wrap justify-center gap-y-10 px-5 py-14">
-          {stats.map((s, i) => (
-            <Reveal
-              key={s.label}
-              delay={i * 0.08}
-              className="w-1/2 px-2 text-center md:w-1/4 lg:w-[14.2857%]"
-            >
-              <CountUp
-                value={s.value}
-                prefix={s.prefix}
-                suffix={s.suffix}
-                className="block text-4xl font-bold tracking-tight text-white sm:text-5xl lg:text-4xl 2xl:text-5xl"
-              />
-              <span className="mt-3 block text-sm text-body">{s.label}</span>
-            </Reveal>
-          ))}
-        </div>
-      </section>
-    );
-  }
-
   return (
     <section className="border-y border-white/5 bg-panel">
       <div
